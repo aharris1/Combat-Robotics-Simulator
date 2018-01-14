@@ -21,7 +21,7 @@ public class SwerveDriveController : MonoBehaviour {
         }
         else if (Input.GetKey("down"))
         {
-            setAllMotorTorques(10);
+            setAllMotorTorques(-10);
         }
         else
         {
